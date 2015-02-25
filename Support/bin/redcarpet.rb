@@ -26,11 +26,7 @@ rescue LoadError
   <h2>Please install the following gems on your system Ruby</h2>
 
   <pre><code>
-  unset GEM_HOME
-  unset GEM_PATH
-
-  sudo /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/gem install redcarpet -v 2.3.0
-  sudo /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/gem install pygments.rb
+  sudo /usr/bin/env gem install redcarpet:2.3.0 pygments.rb
   </code></pre>
 
   </div>
